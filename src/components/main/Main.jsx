@@ -55,23 +55,67 @@ const Main = () => {
                     <h4 className={styles.reviews}>Отзывы о поставщике</h4>
                 </div>
                 <div className={styles.description}>
-                    <div className={styles.description__names}>
-                        <p className={styles.names}>Артикул</p>
-                        <p className={styles.names}>Ширина, мм</p>
-                        <p className={styles.names}>Производитель</p>
-                        <p className={styles.names}>Диаметр, дюймы</p>
-                        <p className={styles.names}>Состояние (б/у)</p>
-                        <p className={styles.names}>Гарантия</p>
-                        <p className={styles.names}>Вес</p>
+                    <div>
+                        <div className={styles.description__names}>
+                            <p className={styles.names}>Артикул</p>
+                            <div className={styles.underline}></div>
+                        </div>
+                        <div className={styles.description__names}>
+                            <p className={styles.names}>Ширина, мм</p>
+                            <div className={styles.underline}></div>
+                        </div>
+                        <div className={styles.description__names}>
+                            <p className={styles.names}>Производитель</p>
+                            <div className={styles.underline}></div>
+                        </div>
+                        <div className={styles.description__names}>
+                            <p className={styles.names}>Диаметр, дюймы</p>
+                            <div className={styles.underline}></div>
+                        </div>
+                        <div className={styles.description__names}>
+                            <p className={styles.names}>Состояние (б/у)</p>
+                            <div className={styles.underline}></div>
+                        </div>
+                        <div className={styles.description__names}>
+                            <p className={styles.names}>Гарантия</p>
+                            <div className={styles.underline}></div>
+                        </div>
+                        <div className={styles.description__names}>
+                            <p className={styles.names}>Вес</p>
+                            <div className={styles.underline}></div>
+                        </div>
                     </div>
-                    <div className={styles.description__values}>
-                        <p className={styles.values}>14848284</p>
-                        <p className={styles.values}>185</p>
-                        <p className={styles.values}>Hyundai-Kia</p>
-                        <p className={styles.values}>15</p>
-                        <p className={styles.values}>Удовлетворительное</p>
-                        <p className={styles.values}>Гарантия14 дн</p>
-                        <p className={styles.values}>0,2 кг (точный)</p></div>
+
+                    <div>
+                        <div className={styles.description__values}>
+                            <p className={styles.values}>14848284</p>
+                            <div className={styles.underline2}></div>
+                        </div>
+                        <div className={styles.description__values}>
+                            <p className={styles.values}>185</p>
+                            <div className={styles.underline2}></div>
+                        </div>
+                        <div className={styles.description__values}>
+                            <p className={styles.values}>Hyundai-Kia</p>
+                            <div className={styles.underline2}></div>
+                        </div>
+                        <div className={styles.description__values}>2
+                            <p className={styles.values}>15</p>
+                            <div className={styles.underline2}></div>
+                        </div>
+                        <div className={styles.description__values}>
+                            <p className={styles.values}>Удовлетворительное</p>
+                            <div className={styles.underline2}></div>
+                        </div>
+                        <div className={styles.description__values}>
+                            <p className={styles.values}>Гарантия 14 дн</p>
+                            <div className={styles.underline2}></div>
+                        </div>
+                        <div className={styles.description__values}>
+                            <p className={styles.values}>0,2 кг (точный)</p>
+                            <div className={styles.underline2}></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <h2 className={styles.others__products__header}>Другие товары в этой категории</h2>
@@ -83,7 +127,7 @@ const Main = () => {
 
                     <div className={styles.product__cards__dop}>
                         <img src={othProduct1} alt="" className={styles.product__cards__photo}/>
-                        <div className={styles.product__cards__name}>Кронштейн фары противотуманной левой для Hyundai Sonata VI 2010-2014 БУ состояние удовлетворительное</div>
+                        <div className={styles.product__cards__name}>Кронштейн фары противотуманной левой для Hyundai Sonata VI 2010-2014 БУ состояние удовлетвор...</div>
                         <div className={styles.rate}>
                             <img src={rating1} alt="" className={styles.rate__stars}/>
                             <div className={styles.rate__number}>4,4</div>

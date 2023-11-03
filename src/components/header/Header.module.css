@@ -24,6 +24,8 @@
     border-radius: 4px;
 }
 
+.header__input::placeholder {color: #DDDDDD}
+
 .header__btn {
     width: 92px;
     height: 46px;

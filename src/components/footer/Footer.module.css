@@ -1,7 +1,6 @@
 .footer {
     background-color: #000000;
     padding: 40px 195px 40px 195px;
-    margin-top: 140px;
 }
 .footer__columns {
     display: grid;
