@@ -1,0 +1,14 @@
+.search {
+    display: flex;
+}
+
+.header__input {
+    width: 400.68px;
+    height: 40px;
+    padding: 13px 14px 13px 14px;
+    background-color: #272727;
+    border: 1px solid #818181;
+    border-radius: 4px;
+}
+
+.header__input::placeholder {color: #DDDDDD}

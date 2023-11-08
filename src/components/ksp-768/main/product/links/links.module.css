@@ -1,0 +1,14 @@
+.product__paths {
+    margin-top: 40px;
+    gap: 6px;
+}
+
+.link__path {
+    color: #DDDDDD;
+}
+
+.current__link {
+    color: #DDDDDD;
+    text-decoration: none;
+    /*white-space: nowrap;*/
+}

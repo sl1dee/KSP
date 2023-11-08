@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.header__input {
+    width: 624px;
+    height: 46px;
+    padding: 13px 14px 13px 14px;
+    background: transparent;
+    border: 1px solid #818181;
+    border-radius: 4px;
+}
+
+.header__input::placeholder {color: #DDDDDD}
+
+.header__btn {
+    width: 92px;
+    height: 46px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 4px;
+    background-color: #FDC82A;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}

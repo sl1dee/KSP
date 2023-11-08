@@ -1,0 +1,26 @@
+.header__basket {
+    display: flex;
+}
+
+.header__basket__group {
+    display: flex;
+}
+
+.header__basket__logo {
+    width: 26px;
+    height: 26px;
+    position: relative;
+}
+
+.header__basket__count {
+    width: 10.56px;
+    height: 10.56px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.header__basket__price {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}

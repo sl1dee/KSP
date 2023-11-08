@@ -1,0 +1,58 @@
+.level2 {
+    display: flex;
+}
+
+.specifications {
+    width: 193px;
+    height: 33px;
+    color: #FDC82A;
+    text-align: center;
+    border-bottom: 2px solid #FDC82A;
+    padding: 0 20px 10px 20px;
+}
+
+.reviews {
+    width: 1337px;
+    height: 33px;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 0 20px 10px 20px;
+}
+
+.description {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 229px 177px;
+    gap: 4px;
+    align-items: center;
+    color: #DDDDDD;
+}
+
+.description__names {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.names {
+    font-size: 16px;
+}
+
+.underline {
+    flex-grow: 1;
+    border-bottom: 1px dashed #FFFFFF;
+    margin-left: 5px;
+}
+
+.description__values {
+    display: flex;
+}
+
+.values {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.underline2 {
+    flex-grow: 1;
+    border-bottom: 1px solid #1C1C1C;
+    margin-left: 5px;
+}

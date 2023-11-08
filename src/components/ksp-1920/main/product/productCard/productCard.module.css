@@ -1,0 +1,118 @@
+.product__card {
+    display: grid;
+    grid-template-columns: 490px 740px;
+    margin: 40px 0 60px 0;
+}
+
+.product__photo {
+    width: 490px;
+    height: 410px;
+    border-radius: 4px;
+}
+
+.product__info {
+    width: 740px;
+    height: 456px;
+    margin-left: 160px;
+    gap: 30px;
+}
+
+.product__name {
+    font-size: 28px;
+}
+
+.product__price {
+    padding: 30px 0 30px 0;
+    font-size: 40px;
+}
+
+.product__description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product__description__number {
+    margin-bottom: 10px;
+}
+.product__description__manufacturer {
+    margin-bottom: 10px;
+}
+
+.product__description__rate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.product__btns {
+    display: flex;
+}
+.count {
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6px 0px 6px 0px;
+    background-color: #272727;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.count__btn {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+}
+
+.count__number {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.basket__btn {
+    width: 190px;
+    height: 50px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+    background-color: #FDC82A;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.favourites__btn {
+    width: 210px;
+    height: 50px;
+    padding: 14px 15px 14px 15px;
+    border-radius: 4px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 1px solid #FDC82A;
+    color: #FDC82A;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.favourites__text {
+    margin: 0 10px 0 10px
+}
+.availability {
+    display: flex;
+    width: 518px;
+    height: 38px;
+    background-color: #272727;
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 8px 30px 8px 30px;
+    gap: 12px;
+}
+.availability__text {
+    font-weight: bold;
+}
